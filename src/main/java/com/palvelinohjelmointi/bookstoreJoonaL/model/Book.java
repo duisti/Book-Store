@@ -1,4 +1,4 @@
-package com.palvelinohjelmointi.bookstoreJoonaL.domain;
+package com.palvelinohjelmointi.bookstoreJoonaL.model;
 
 public class Book {
 	
@@ -14,6 +14,10 @@ public class Book {
 		this.year = year;
 		this.isbn = isbn;
 		this.price = price;
+	}
+
+	public Book() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public String getTitle() {
